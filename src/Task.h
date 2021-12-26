@@ -1,3 +1,4 @@
+#pragma once;
 
 class Task {
 private:
@@ -15,4 +16,6 @@ public:
   void changeAssignee(std::string newPerson);
   void updateInfo(std::string newInfo);
   void updateDeadline(std::string newDeadline);
+  //printing
+  void print();
 };

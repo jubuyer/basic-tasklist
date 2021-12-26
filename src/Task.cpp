@@ -8,7 +8,7 @@ Task::Task() {
   deadline = "the end of time";
 }
 
-Task::Task(std::string inputAssignee, std::string inputInfo, int inputDeadline) {
+Task::Task(std::string inputAssignee, std::string inputInfo, std::string inputDeadline) {
   assignee = inputAssignee;
   info = inputInfo;
   deadline = inputDeadline;
