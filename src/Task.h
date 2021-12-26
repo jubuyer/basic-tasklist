@@ -16,6 +16,8 @@ public:
   void changeAssignee(std::string newPerson);
   void updateInfo(std::string newInfo);
   void updateDeadline(std::string newDeadline);
+  //creating
+  void createTask();
   //printing
   void print();
 };
